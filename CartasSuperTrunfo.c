@@ -10,7 +10,7 @@ int main() {
   int pontos; //turisticos
 
   printf("digite o estado:\n");
-  scanf("%s", &estado);
+  scanf("%c", &estado);
 
 
   printf("digite a cidade:\n");
