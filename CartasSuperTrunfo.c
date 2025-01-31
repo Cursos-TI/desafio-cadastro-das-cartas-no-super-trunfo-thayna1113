@@ -2,38 +2,45 @@
 
 int main() {
 
-  char estado;
+
+  char estado[4];
   char cidade[50];
-  float populacao;
-  float area;
-  float pib;
+  double populacao;
+  double area;
+  double pib;
   int pontos; //turisticos
+  double divisao; 
+
 
   printf("digite o estado:\n");
-  scanf("%c", &estado);
+  scanf(" %3s", estado);
 
 
   printf("digite a cidade:\n");
-  scanf("%s", cidade);
+  scanf(" %s", cidade);
 
 
   printf("digite a população:\n");
-  scanf("%f", &populacao);
+  scanf(" %lf", &populacao);
 
 
   printf("digite a area:\n");
-  scanf(" %f", &area);
+  scanf(" %lf", &area);
 
 
   printf("digite o pib:\n");
-  scanf("%f", &pib);
+  scanf(" %lf", &pib);
 
 
   printf("digite o numero de ponto turístico:\n");
-  scanf("%d", &pontos);
+  scanf(" %d", &pontos);
 
-  printf("estado: %c - cidade: %s\n", estado, cidade);
-  printf("populacao: %f - area: %f - pib: %f - pontos %d\n", populacao, area, pib, pontos);
+  //operaçao dividir
+  divisao = (pib / populacao);
+  
+  printf("O calculo é: %.2f \n", divisao);
+  printf("estado: %s - cidade: %s\n", estado, cidade);
+  printf("populacao: %.2f - area: %.2f - pib: %.2f - pontos %d \n", populacao, area, pib, pontos);
 
     return 0;
 }
