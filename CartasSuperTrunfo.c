@@ -4,27 +4,26 @@ int main() {
 
 
   char estado;
-  int codigo de cartas;
+  int codigo_da_carta;
   char cidade[50];
   int populacao;
   float area;
   float pib;
-  int pontos turisticos;
-  float densidade populacional;
-  float PIB per capita;
-  float super poder;
+  int pontos_turisticos;
+  float densidade_populacional;
+  float pib_per_capita;
 
 
   printf("digite o estado:\n");
-  scanf("%c", estado);
+  scanf(" %c", estado);
 
 
   printf("digite o codigo da carta:\n");
-  scanf("%d", cogigo da carta);
+  scanf("%d", &codigo_da_carta);
 
 
   printf("digite a cidade:\n");
-  scanf("%s", cidade);
+  scanf(" %s", cidade);
 
 
   printf("digite a população:\n");
@@ -40,14 +39,14 @@ int main() {
 
 
   printf("digite o numero de ponto turístico:\n");
-  scanf("%d", &pontos turisticos);
+  scanf("%d", &pontos_turisticos);
 
 
   printf("digite a densidade populacional:\n");
-  scanf("%f", &densidade populacional);
+  scanf("%f", &densidade_populacional);
 
   printf("digite o pib per capita:\n");
-  scanf("%f", &pib per capita);
+  scanf("%f", &pib_per_capita);
 
 
     return 0;
