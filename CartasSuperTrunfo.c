@@ -3,50 +3,46 @@
 int main() {
 
 
-  char estado;
-  int codigo_da_carta;
-  char cidade[50];
-  int populacao;
-  float area;
-  float pib;
-  int pontos_turisticos;
-  float densidade_populacional;
-  float pib_per_capita;
+  char estado1, estado2;
+  int codigo1[5], codigo2[5];
+  char cidade1[50], cidade2[50];
+  int populacao1, populacao2;
+  float area1, area2;
+  float pib1, pib2;
+  int pontosturisticos1, pontosturisticos2;
 
 
+  printf("cartas super trunfo\n");
+
+
+  //declaraçao de variaveis carta 2
+
+
+  printf("digite o codigo da carta1:\n");
+  scanf("%s", codigo1);
   printf("digite o estado:\n");
-  scanf(" %c", estado);
-
-
-  printf("digite o codigo da carta:\n");
-  scanf("%d", &codigo_da_carta);
-
-
+  scanf(" %c", &estado1);
   printf("digite a cidade:\n");
-  scanf(" %s", cidade);
-
-
+  scanf( " %s", cidade1);
   printf("digite a população:\n");
-  scanf("%d", &populacao);
-
-
+  scanf( " %d", &populacao1);
   printf("digite a area:\n");
-  scanf("%f", &area);
-
-
+  scanf("%f", &area1);
   printf("digite o pib:\n");
-  scanf("%f", &pib);
+  scanf("%f", &pib1);
+  printf("digite o numero de pontos turisticos:\n");
+  scanf("%d", &pontosturisticos1);
 
 
-  printf("digite o numero de ponto turístico:\n");
-  scanf("%d", &pontos_turisticos);
+  printf("o codigo da primeira carta é: %s \n", codigo1);
+  printf("o estado é:%c \n", &estado1);
+  printf("a cidade é:%s  \n", cidade1);
+  printf("a populacao é:%d \n", &populacao1);
+  printf("a area é:%f  \n", &area1);
+  printf("o pib é:%f \n", &pib1);
+  printf("os pontos turistico são:%d \n", &pontosturisticos1);
 
-
-  printf("digite a densidade populacional:\n");
-  scanf("%f", &densidade_populacional);
-
-  printf("digite o pib per capita:\n");
-  scanf("%f", &pib_per_capita);
+  //declaraçao de variaveis carta 2
 
 
     return 0;
