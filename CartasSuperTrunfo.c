@@ -43,9 +43,11 @@ printf("o pib é:%f \n", pib1);
 printf("os pontos turistico são:%d \n", pontosturisticos1);
 
 
-
   //declaraçao de variaveis carta 2
 
+  printf("segunda carta\n");
+
+  
   printf("digite o codigo da carta2:\n");
   scanf(" %s", codigo2);
   printf("digite o estado:\n");
@@ -63,7 +65,7 @@ printf("os pontos turistico são:%d \n", pontosturisticos1);
 
 
 
-  printf("o codigo da primeira carta é: %s \n", codigo2);
+  printf("o codigo da segunda carta é: %s \n", codigo2);
   printf("o estado é:%c \n", estado2);
   printf("a cidade é:%s  \n", cidade2);
   printf("a populacao é:%d \n", populacao2);
