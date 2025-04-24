@@ -14,7 +14,7 @@ int main() {
   float densidade_populacional1, densidade_populacional2;
 
 
-  printf("cartas super trunfo\n");
+  printf("**cartas super trunfo**\n");
 
 
   //declaraçao de variaveis carta 2
@@ -43,7 +43,7 @@ int main() {
   //declaraçao de variaveis carta 2
 
 
-  printf("segunda carta\n");
+  printf("**segunda carta**\n");
 
   printf("digite o codigo da carta2:\n");
   scanf(" %s", codigo2);
@@ -72,8 +72,8 @@ int main() {
   printf("a area é:%f  \n", area1);
   printf("o pib é:%f \n", pib1);
   printf("os pontos turistico são:%d \n", pontosturisticos1);
-  printf("a densidade populacional é:%2f \n", densidade_populacional1);
-  printf("o pib per capital é:%2f \n", pib_per_capital1);
+  printf("a densidade populacional é:%.2f \n", densidade_populacional1);
+  printf("o pib per capital é:%.2f \n", pib_per_capital1);
 
 
   printf("o codigo da segunda carta é: %s \n", codigo2);
@@ -83,8 +83,8 @@ int main() {
   printf("a area é:%f  \n", area2);
   printf("o pib é:%f \n", pib2);
   printf("os pontos turistico são:%d \n", pontosturisticos2);
-  printf("a densidade populacional é:2%f \n", densidade_populacional2);
-  printf("o pib per capital é:%2f \n", pib_per_capital2);
+  printf("a densidade populacional é:%.2f \n", densidade_populacional2);
+  printf("o pib per capital é:%.2f \n", pib_per_capital2);
 
 
     return 0;
